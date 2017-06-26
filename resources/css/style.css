@@ -90,3 +90,53 @@ body{
 	width:100%;
 	text-align:center;
 }
+
+/* Project Section*/
+
+.image-container{
+	overflow:hidden;
+}
+
+.image-container img{
+	opacity:0.5;
+	width:100%;
+	transition:all 500ms ease-in-out;
+}
+
+.featured-project{
+	margin-top:-7rem;
+}
+
+h2{
+	padding-bottom:1.4rem;
+	font-size:1.7rem;
+	font-weight:bold;
+	color:#399bd1;
+}
+
+.featured-project .image-container{
+	height:19rem;
+}
+
+.projects{
+	padding-bottom:5.85rem;
+}
+
+.projects .image-container{
+	height:13.5rem;
+}
+
+.image-container img:hover{
+	opacity:1;
+	transform:scale(1.1) rotate(2deg);
+}
+
+.categories h3{
+	font-size:1.3rem;
+	font-weight:bold;
+	color:#399bd1;
+}
+
+.categories ul{
+	color:rgba(0,0,0,0.7);
+}
